@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="CPL-1.0"
+
+[[mods]]
+modId="aurora"
+version="1.3.1"
+displayName="Aurora Shaders"
+authors="Chow"
+description='''
+Aurora Shaders is a lightweight, modern shader loader for Forge 1.20.1 designed to bring beauty, customization, and performance to Minecraft.
+
+Aurora Shaders provides an Iris-style experience on Forge, allowing you to load and manage external shaderpacks directly from the in-game menus. It integrates seamlessly with the Video Settings and Pause Menu, offering instant access to shader selection and activation.
+
+Features:
+• Shaderpack Loader – automatically detects and loads .zip shaderpacks from the .minecraft/shaderpacks folder.
+• In-Game Shader Menu – browse, select, and apply shaders directly from within Minecraft.
+• Lightweight Core – minimal overhead and zero dependencies.
+• Hot Reloading – change shaderpacks without restarting the game.
+• Open Architecture – easy for developers and shader creators to extend.
+
+Compatibility:
+• Works with Forge 47.x (Minecraft 1.20.1)
+• Does not require or depend on Iris or Oculus
+• Compatible with performance mods such as Rubidium or Embeddium (when Oculus is not present)
+
+Vision:
+Aurora Shaders aims to deliver a fast, stable, and open alternative to Oculus on Forge—providing beautiful visuals, simple integration, and complete freedom for creators.
+'''
+
+[[dependencies.aurora]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.aurora]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="CLIENT"
