@@ -1,17 +1,17 @@
-Chow Protective License (CPL-1.0)
+# Chow Protective License (CPL-1.0)
 
 Copyright (c) 2026 Chow
 
-All rights reserved.
+## All rights reserved.
 
 This software project, known as "Aurora Shaders", including but not limited
 to its source code, compiled binaries, shaders, assets, documentation,
 project structure, and any associated files (collectively, the "Software"),
 is the exclusive intellectual property of the Copyright Holder.
 
-────────────────────────────────────────
-1. PERMITTED USE
-────────────────────────────────────────
+# ────────────────────────────────────────
+# 1. PERMITTED USE
+# ────────────────────────────────────────
 
 You are permitted to:
 
